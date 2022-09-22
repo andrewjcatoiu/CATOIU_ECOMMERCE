@@ -14,7 +14,7 @@ const Canceled = () => {
     }, []);
 
     return (
-    <div className="canceled-btn" style={{display: 'flex', alignItems: 'center', justifyContent: 'center', height: '50vh'}}>
+    <div style={{display: 'flex', alignItems: 'center', justifyContent: 'center', height: '50vh'}}>
         <Link href="/">
             <button type="button" width="300px" className="btn">
                 Return to Main Store
